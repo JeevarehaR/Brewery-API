@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans',sans-serif;
+    font-size: large;
+    background-color: #858181;
+}
+
+.heading-container{
+    text-align: center;
+    margin-top: 20px ;
+    color: rgb(231, 78, 172);
+    background-color: rgba(124, 72, 172, 0.66);
+}
+
+.main-container{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin : 10px;
+    gap: 10px;
+    background: linear-gradient(90deg,rgb(248, 103, 253)0%,rgb(235,247,15)100%);
+}
+
+.container{
+    background-color: #1ac0f7;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    width: 250px;
+}
